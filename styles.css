@@ -365,19 +365,6 @@ button { font-family: var(--font); }
 /* ══════════════════════════════════════════
    SERVICES
 ══════════════════════════════════════════ */
-.svc-cat { margin-bottom: 44px; }
-.svc-cat:last-of-type { margin-bottom: 0; }
-
-.cat-title {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--white);
-  margin-bottom: 18px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid var(--border);
-  letter-spacing: -.01em;
-}
-
 .svc-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
