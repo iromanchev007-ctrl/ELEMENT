@@ -119,9 +119,8 @@ button { font-family: var(--font); }
   flex-shrink: 0;
 }
 .logo-icon {
-  width: 42px;
-  height: auto;
-  fill: var(--white);
+  width: 46px;
+  height: 46px;
   flex-shrink: 0;
 }
 .logo-text {
@@ -220,7 +219,7 @@ button { font-family: var(--font); }
   min-height: 100svh;
   display: flex;
   align-items: center;
-  background-image: url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1920&q=80');
+  background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80');
   background-size: cover;
   background-position: center 40%;
   background-repeat: no-repeat;
@@ -269,32 +268,6 @@ button { font-family: var(--font); }
   line-height: 1.55;
 }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
-
-.hero-stats {
-  display: flex;
-  gap: 40px;
-  margin-top: 52px;
-  padding-top: 32px;
-  border-top: 1px solid rgba(255,255,255,.12);
-  flex-wrap: wrap;
-}
-.hero-stat-num {
-  display: block;
-  font-size: 30px;
-  font-weight: 900;
-  color: var(--white);
-  letter-spacing: -.03em;
-  line-height: 1;
-  margin-bottom: 5px;
-}
-.hero-stat-lbl {
-  display: block;
-  font-size: 11.5px;
-  color: var(--gray);
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .09em;
-}
 
 .hero-scroll {
   position: absolute;
@@ -678,7 +651,6 @@ button { font-family: var(--font); }
 
   .hero-actions { flex-direction: column; max-width: 300px; }
   .hero-actions .btn { width: 100%; }
-  .hero-stats { gap: 28px; }
 
   .addr-info .btn { align-self: flex-start; }
 }
