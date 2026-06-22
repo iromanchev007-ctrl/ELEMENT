@@ -407,12 +407,6 @@ button { font-family: var(--font); }
   color: var(--white);
   letter-spacing: -.01em;
 }
-.svc-approx {
-  font-size: 12px;
-  font-weight: 400;
-  color: var(--gray);
-  margin-left: 2px;
-}
 
 .svc-cta {
   margin-top: 44px;
